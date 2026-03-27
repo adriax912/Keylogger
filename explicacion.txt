@@ -1,0 +1,42 @@
+¿Cómo funciona el programa:
+Es un capturador de teclas que guarda todo lo que escribes, además de anotar en qué ventana lo haces.
+
+Para funcionar, tuvimos que usar APIs de Windows como lo son: 
+
+GetAsyncKeyState - Para consultar el estado de teclas
+
+GetForegroundWindow - Para obtener la ventana activa
+
+GetWindowTextW - API para obtener el título de la ventana.
+
+El programa está constantemente revisando si se presiono alguna tecla. Cuando detecta una, la 
+escribe en un archivo .txt junto con la hora exacta. Si se cambia de ventana, también lo anota.
+
+Algunas teclas como Enter, Espacio o Borrar se guardan con nombres especiales, mientras que las 
+letras comunes se guardan tal cual. Además, tiene pequeñas pausas para evitar que se registre 
+varias veces una misma pulsación.
+
+Este programa solo funciona en computadoras con Windows.
+
+
+¿Qué dificultades tuvieron?:
+La mayor dificultad que tuvimos todos fue la nula experiencia de manejar Ruby teniendo que cada 
+quien tener que buscar por distintas fuentes acerca de su uso.
+
+Otra dificultad que tambien encontramos fue que Ruby no tiene funciones nativas para capturar teclas
+globalmente asi que tuvimos que usar APIs para que se puedan registrar las operaciones que queriamos.
+
+
+Alumnnos:
+Alvaro Alendro Arriaga Ortega
+Adrián Torres Arreola
+Jose Guillermo Valencia Barrera
+Victor Yael Balandrán Pedroza
+
+
+
+
+ 
+
+
+
