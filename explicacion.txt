@@ -25,18 +25,3 @@ quien tener que buscar por distintas fuentes acerca de su uso.
 
 Otra dificultad que tambien encontramos fue que Ruby no tiene funciones nativas para capturar teclas
 globalmente asi que tuvimos que usar APIs para que se puedan registrar las operaciones que queriamos.
-
-
-Alumnnos:
-Alvaro Alendro Arriaga Ortega
-Adrián Torres Arreola
-Jose Guillermo Valencia Barrera
-Victor Yael Balandrán Pedroza
-
-
-
-
- 
-
-
-
